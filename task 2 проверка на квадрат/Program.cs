@@ -5,9 +5,9 @@
 // a = -3 b = 9 -> нет
 
 Console.WriteLine("Введите переменную а: ");
-Console.Write("Введите переменную b: ");
-
 int a = Convert.ToInt32(Console.ReadLine());
+
+Console.Write("Введите переменную b: ");
 int b = Convert.ToInt32(Console.ReadLine());
 
 if(a == b * b)

@@ -1,6 +1,6 @@
 ﻿Console.WriteLine("Enter your number: ");
 int N = Convert.ToInt32(Console.ReadLine());
-if (a >= 100 && a <= 1000)
+if (N >= 100 && N <= 1000)
 {
 
 }

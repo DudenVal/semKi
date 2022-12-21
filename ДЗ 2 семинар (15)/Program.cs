@@ -23,7 +23,7 @@ while(indx <= 10000)
 
     else if(DayNumber > 7)
     {
-    Console.WriteLine("Ошибка");
+    Console.WriteLine("Ошибка"); // Заранее извиняюсь, если вы вдруг захотите запустить код)
     }
     indx++;
 }

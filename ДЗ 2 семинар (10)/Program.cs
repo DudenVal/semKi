@@ -4,11 +4,11 @@
 // 782 -> 8
 // 918 -> 1
 
-int[] array = { 100, 456, 782};
+Console.WriteLine("Enter u numb: ");
+int Numb = Convert.ToInt32(Console.ReadLine());
+string array = Convert.ToString(Numb);
 
-int n = array.Length;
-int index = 1;
-Console.WriteLine(index);
+Console.WriteLine("Second number: " + array[1]);
 
 // ----------------Другое решение----------------------------
 

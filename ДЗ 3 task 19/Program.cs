@@ -10,7 +10,7 @@ string NumbA = Convert.ToString(number);
 
 if( number > 9999 && number < 100000)
 {
-    if(NumbA[0] == NumbA[4] && NumbA[1] == NumbA[3])
+    if(NumbA[0] == NumbA[4] && NumbA[1] == NumbA[3]) 
     {
         Console.WriteLine("По вашему запросу стало известно, что введенное вами число ЯВЛЯЕТСЯ палиндромомОМНОМОМНОМНОМ");
     }

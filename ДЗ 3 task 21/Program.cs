@@ -10,8 +10,8 @@
 Console.Write("Ваша переменная X1: ");
 double X1 = Convert.ToInt32(Console.ReadLine());
 Console.Write("Ваша переменная Y1: ");
-double Y1 = Convert.ToInt32(Console.ReadLine());
-Console.Write("Ваша переменная Z1: ");
+double Y1 = Convert.ToInt32(Console.ReadLine()); f
+Console.Write("Ваша переменная Z1: "); 
 double Z1 = Convert.ToInt32(Console.ReadLine());
 //---------------------------------------Для координатов второй точки---------------------------------------
 Console.Write("Ваша переменная X2: ");

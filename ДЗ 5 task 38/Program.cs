@@ -6,7 +6,7 @@ double[] FillArrayWithRandom(double[] array)
 {
     for (int i = 0; i < array.Length; i++)
     {
-        array[i] = new Random().NextDouble();          
+        array[i] = new Random().NextDouble() + new Random().Next(1, 40);
     }
     return array;
 }
@@ -20,7 +20,6 @@ double Diff = 0;
 double min = 1000;
 double max = 0;
 
-
 for (int i = 0; i < array.Length; i++)
 {
     if (max < array[i])
@@ -28,13 +27,12 @@ for (int i = 0; i < array.Length; i++)
         max = array[i];
 
     }
-    else if(min > array[i])
+    else if (min > array[i])
     {
         min = array[i];
     }
 }
 Diff = max - min;
-
 
 System.Console.WriteLine(" ");
 System.Console.WriteLine("Максимальное число = " + max);

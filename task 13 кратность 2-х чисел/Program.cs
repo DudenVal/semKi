@@ -5,21 +5,21 @@
 // 46 -> нет 
 // 161 -> да
 
-Console.WriteLine("Введите переменную а: ");
-int a = Convert.ToInt32(Console.ReadLine());
-int numbA = 7;
-int numbB = 23;
-int numbC = a / 7;
-if(numbC / numbB >= 1)
-    {
+// Console.WriteLine("Введите переменную а: ");
+// int a = Convert.ToInt32(Console.ReadLine());
+// int numbA = 7;
+// int numbB = 23;
+// int numbC = a / 7;
+// if(numbC / numbB >= 1)
+//     {
 
-        Console.WriteLine("Да");
-    }
+//         Console.WriteLine("Да");
+//     }
 
-else
-    {
-    Console.WriteLine("Нет");
-    }
+// else
+//     {
+//     Console.WriteLine("Нет");
+//     }
 
 // Напишите программу, которая принимает на вход два числа и проверяет, является ли одно число квадратом другого.
 

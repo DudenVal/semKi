@@ -15,13 +15,13 @@ for (int i = 0; i < a.Length; i++)
 Console.WriteLine("Количество чисел = " + a.Length);
 
 // ------------------------or--------------------
-string a = Console.ReadLine();
-if (int.TryParse(a, out int A))
-{
-    Console.WriteLine(a.Length);
-}
-else
-{
-    Console.WriteLine("Ошибка");
-}
+// string a = Console.ReadLine();
+// if (int.TryParse(a, out int A))
+// {
+//     Console.WriteLine(a.Length);
+// }
+// else
+// {
+//     Console.WriteLine("Ошибка");
+// }
 

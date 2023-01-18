@@ -26,7 +26,6 @@ int Gnida = 0;
 Console.WriteLine(Sum(numb));
 int Sum(int number)
 {
-    int N = 1;
     while (numb > 0)
     {
         Gnida = numb % 10;

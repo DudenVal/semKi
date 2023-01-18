@@ -16,19 +16,19 @@ System.Console.WriteLine(N);
 
 // ----------------методом---------------------------
 
-System.Console.WriteLine("Введите переменую A ");
-int A = Convert.ToInt32(Console.ReadLine());
-System.Console.WriteLine("Введите переменую B ");
-int B = Convert.ToInt32(Console.ReadLine());
-int Step(int number)
-{
-    int N = 1;
-    for (int i = 1; i <= B; i++)
-    {
-        N *= A;
-    }
-    return N;
-}
+// System.Console.WriteLine("Введите переменую A ");
+// int A = Convert.ToInt32(Console.ReadLine());
+// System.Console.WriteLine("Введите переменую B ");
+// int B = Convert.ToInt32(Console.ReadLine());
+// int Step(int number)
+// {
+//     int N = 1;
+//     for (int i = 1; i <= B; i++)
+//     {
+//         N *= A;
+//     }
+//     return N;
+// }
 
 
-Console.WriteLine(Step(A));
+// Console.WriteLine(Step(A));

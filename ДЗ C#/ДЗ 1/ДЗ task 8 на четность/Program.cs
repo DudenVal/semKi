@@ -7,13 +7,14 @@
 
 Console.WriteLine("Enter your number: ");
 int N = Convert.ToInt32(Console.ReadLine());
-if(N % 2 == 0)
+int cost = 0;
+if (N % 2 == 0)
 {
-    
-    Console.WriteLine("Да");
+    cost = N % 2;
+    Console.WriteLine("Да " + cost);
 }
-else 
+else
 {
-    Console.WriteLine("Нет");
+    cost = N % 2;
+    Console.WriteLine("Нет " + cost);
 }
-Console.Write(N);

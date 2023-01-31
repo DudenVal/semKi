@@ -9,5 +9,7 @@
 
 Console.Write("Введите число: ");
 int a = Convert.ToInt32(Console.ReadLine());
-int number = a * a;
-Console.WriteLine("Квадрат числа равен " + number);
+int CHELN = a * a;
+Console.WriteLine("Квадрат числа равен " + CHELN);
+
+
